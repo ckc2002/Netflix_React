@@ -9,7 +9,7 @@ function Card(web) {
         <div className="card_info">
           <span className="card_category">{web.title}</span>
           <h3 className="card_title"> {web.sname}</h3>
-          <a href = {web.link} target="_blank">
+          <a href = {web.link} target="_blank" rel="noopener noreferrer">
             <button> Watch Now</button>
           </a>
         </div>
